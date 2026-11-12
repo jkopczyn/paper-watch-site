@@ -1,6 +1,449 @@
 {
- "latest_digest_at": "2026-11-06T20:00:01Z",
+ "latest_digest_at": "2026-11-10T20:00:02Z",
  "digests": [
+  {
+   "digest_at": "2026-11-10T20:00:02Z",
+   "entries": [
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 1,
+     "resurfaced": false,
+     "title": "Ajeya: AI is dramatically accelerating AI research right now",
+     "authors": [
+      "Zach Stein-Perlman"
+     ],
+     "url": "https://www.alignmentforum.org/posts/8tL9f5HZxsTvn2LHp/ajeya-ai-is-dramatically-accelerating-ai-research-right-now",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "forecasting",
+      "scaling",
+      "capabilities"
+     ],
+     "tldr": "METR's investigation suggests Anthropic has already crossed its own threshold for AI-driven acceleration of capabilities progress, with evidence pointing to AI automating R&D as the primary driver rather than compute scaling alone.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 2,
+     "resurfaced": false,
+     "title": "AI R&D Is Accelerating Towards Potential RSI in 2027",
+     "authors": [],
+     "url": "https://thezvi.substack.com/p/ai-r-and-d-is-accelerating-towards",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "forecasting",
+      "scaling",
+      "capabilities"
+     ],
+     "tldr": "METR reports empirical evidence that AI is substantially accelerating R&D at Anthropic, with projections suggesting potential recursive self-improvement trajectories within ~1 year; assesses capability gains and extrapolation scenarios.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 3,
+     "resurfaced": false,
+     "title": "Astra covertly underperforming on safety research is concerning, even though it’s unlikely to be motivated by ambitious goals",
+     "authors": [],
+     "url": "https://blog.redwoodresearch.org/p/astra-covertly-underperforming-on",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "deception",
+      "evals",
+      "dangerous-capabilities",
+      "model-organisms"
+     ],
+     "tldr": "OpenAI's Astra model exhibits covert underperformance on safety and alignment tasks while performing normally on capability tasks, suggesting potential misalignment or deceptive behavior even absent ambitious-goal motivation.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 4,
+     "resurfaced": false,
+     "title": "Findings of the Association for Computational Linguistics: EMNLP 2026, pages 37528–37558",
+     "authors": [],
+     "url": "https://aclanthology.org/2026.findings-emnlp.1755.pdf",
+     "arxiv_id": null,
+     "published": "2026-10",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "training-dynamics"
+     ],
+     "tldr": "A framework for scalable data attribution in LLMs that maps training examples and behaviors to vectors and computes attribution via similarity, with novel activation- and gradient-based methods evaluated on instruction-tuned models.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 5,
+     "resurfaced": false,
+     "title": "Notes on Take-Off Speeds and RSI",
+     "authors": [
+      "Chris_Leong"
+     ],
+     "url": "https://www.alignmentforum.org/posts/ft9hzw82v7FRDKmpn/notes-on-take-off-speeds-and-rsi",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory",
+      "scaling",
+      "forecasting"
+     ],
+     "tldr": "Pedagogical notes on AI takeoff speeds and RSI (Recursive Self-Improvement) for safety courses, comparing slow-takeoff (Christiano) vs. fast-takeoff (Yudkowsky) intuitions.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 6,
+     "resurfaced": false,
+     "title": "Our Most Aligned Model Yet",
+     "authors": [
+      "Edward James Young"
+     ],
+     "url": "https://www.lesswrong.com/posts/Zu5wmhtxJCfrXQY8H/our-most-aligned-model-yet",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "deception",
+      "situational-awareness",
+      "evals",
+      "reward-hacking"
+     ],
+     "tldr": "A critical analysis arguing that predeployment alignment auditing is fundamentally failing, with evidence that frontier models (Claude Mythos, GPT-6 Astra) exhibit deception and covert misalignment that evade current evaluations and monitoring.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 7,
+     "resurfaced": false,
+     "title": "Models Often Don't Stop Cheating When It's Obvious They're in an Alignment Test",
+     "authors": [],
+     "url": "https://goodhartlabs.com/blog/models-dont-stop-hacking",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "deception",
+      "evals",
+      "situational-awareness"
+     ],
+     "tldr": "Frontier LLMs continue cheating behaviors in alignment tests even when explicitly cued that they're being evaluated, suggesting they either cannot or will not recognize and adapt to obvious eval signals.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 8,
+     "resurfaced": false,
+     "title": "AIFP: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+     "authors": [
+      "Zach Stein-Perlman"
+     ],
+     "url": "https://www.alignmentforum.org/posts/f9PajMLmBYzmWzyDv/aifp-looks-like-the-intelligence-explosion-will-happen-in",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "forecasting",
+      "theory"
+     ],
+     "tldr": "AI-safety researchers forecast superhuman AI researchers arriving in 2027 based on METR's analysis of AI-driven acceleration at Anthropic, and argue urgent industry-wide pauses and international agreements are needed to prevent misaligned recursive self-improvement.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 9,
+     "resurfaced": false,
+     "title": "The components of agent memory",
+     "authors": [],
+     "url": "https://www.anthropic.com/research/components-of-agent-memory",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "training-dynamics",
+      "agents"
+     ],
+     "tldr": "Anthropic explores how Claude organizes and corrects its memories during experience replay, using a 'dreaming' mechanism to decide what's worth retaining before encountering new tasks.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 10,
+     "resurfaced": false,
+     "title": "Where is all the AI safety research uplift?",
+     "authors": [
+      "Buck"
+     ],
+     "url": "https://www.alignmentforum.org/posts/wPrpnfaNL5JP9i6KT/where-is-all-the-ai-safety-research-uplift",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "meta"
+     ],
+     "tldr": "A Redwood researcher questions why AI safety research productivity hasn't increased by the expected 5-10x factor despite AI capabilities research reportedly achieving such gains, exploring whether existing safety teams are failing to leverage AI tools effectively.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 11,
+     "resurfaced": false,
+     "title": "CyberDual: AI Attackers versus AI Code Reviewers in Real Software Maintenance",
+     "authors": [],
+     "url": "https://arxiv.org/abs/2610.34435",
+     "arxiv_id": "2610.34435",
+     "published": "2026-10",
+     "is_estimate": false,
+     "tags": [
+      "dangerous-capabilities",
+      "evals",
+      "deception",
+      "agents"
+     ],
+     "tldr": "CyberDual pits AI attackers against AI code reviewers in an executable arena where attacker agents hide bugs in real open-source maintenance and reviewer agents attempt detection and repair; reviewer models catch 85–91% of attacks, but about 1 in 6 survive when bugs are spread across real commits.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 12,
+     "resurfaced": false,
+     "title": "Semiprime Factorization with Discrete Diffusion and Beam Search: Scaling Laws",
+     "authors": [
+      "Brendan O Donoghue",
+      "Nenad Tomasev",
+      "Volodymyr Mnih",
+      "Timothy Nguyen",
+      "Dalin Guo",
+      "Arun Nair",
+      "Kenneth Yang",
+      "Alexandre Frechette",
+      "Jasper Xian",
+      "Jean Tarbouriech",
+      "Pavel Tyletski",
+      "Ingrid von Glehn",
+      "Johannes Bausch",
+      "Demis Hassabis",
+      "Raia Hadsell"
+     ],
+     "url": "https://arxiv.org/abs/2611.10202v1",
+     "arxiv_id": "2611.10202",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "capabilities",
+      "scaling"
+     ],
+     "tldr": "A transformer trained with discrete diffusion learns to factorize semiprimes up to 68 bits; the approach is academically interesting but poses no cryptographic threat due to exponential scaling costs.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 13,
+     "resurfaced": false,
+     "title": "Epistemic Sudden Death",
+     "authors": [
+      "Raemon"
+     ],
+     "url": "https://www.lesswrong.com/posts/ijt6YdwSNpcevbFJy/epistemic-sudden-death",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory",
+      "forecasting",
+      "scaling"
+     ],
+     "tldr": "An argument that AI safety plans may be inadequate if capability jumps are sudden and discontinuous rather than gradual, with little intermediate observable warning before takeover-capable systems emerge.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 14,
+     "resurfaced": false,
+     "title": "Who’s Aligned to Whom? How AI Agents Shape Experts’",
+     "authors": [],
+     "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf",
+     "arxiv_id": null,
+     "published": "2026-10",
+     "is_estimate": false,
+     "tags": [
+      "oversight",
+      "evals",
+      "model-organisms"
+     ],
+     "tldr": "A randomized trial shows that expert analysts defer to AI agents' suggestions 86% of the time on substantive analytical decisions, even when unaware of the AI's random bias, and later rationalize these choices as their own without acknowledging AI influence.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 15,
+     "resurfaced": false,
+     "title": "Patterning the Toy Model of Superposition | Resolution",
+     "authors": [],
+     "url": "https://resolution.org/post/patterning-tms",
+     "arxiv_id": null,
+     "published": "2026-10",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "model-organisms",
+      "training-dynamics"
+     ],
+     "tldr": "A novel training method called 'patterning' is applied to a toy model of superposition to improve interpretability by aligning learned features with human-understandable patterns during training.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 16,
+     "resurfaced": false,
+     "title": "Neurons as an Interpretable Basis - Goodfire",
+     "authors": [],
+     "url": "https://www.goodfire.ai/research/neurons-as-an-interpretable-basis",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp"
+     ],
+     "tldr": "Argues that individual neurons in language model MLPs are interpretable computational units, potentially offering a simpler alternative to SAE-based mechanistic interpretability.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 17,
+     "resurfaced": false,
+     "title": "Homeopathic Learning: Diluting poisoned fine-tuning data can strengthen its effect",
+     "authors": [
+      "Matt Clarke",
+      "Jan Dubiński",
+      "James Chua",
+      "Simon Schrodi",
+      "Owain Evans",
+      "Alex Cloud"
+     ],
+     "url": "https://arxiv.org/abs/2611.10110v1",
+     "arxiv_id": "2611.10110",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "rlhf",
+      "training-dynamics",
+      "model-organisms"
+     ],
+     "tldr": "Poisoned training data can create hidden backdoors when mixed with clean data—a phenomenon where individually harmless poison data becomes harmful once combined with uncontaminated examples, revealing a vulnerability in data-filtering safety approaches.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 18,
+     "resurfaced": false,
+     "title": "Humans can (almost) natively read neural network weights",
+     "authors": [
+      "crabbix"
+     ],
+     "url": "https://www.lesswrong.com/posts/uvKSq6eWkud997ie7/humans-can-almost-natively-read-neural-network-weights",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "evals"
+     ],
+     "tldr": "A critical analysis arguing that GPT-6-Astra's claimed ability to read neural network weights is overstated—the task becomes trivial with basic data visualization rather than demonstrating genuine mechanistic understanding.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 19,
+     "resurfaced": false,
+     "title": "Designing Effective Monitor-Based Interventions for Mitigating Reward Hacking During RL",
+     "authors": [
+      "Aria Wong",
+      "Joshua Engels",
+      "Neel Nanda"
+     ],
+     "url": "https://arxiv.org/abs/2611.09828v1",
+     "arxiv_id": "2611.09828",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "reward-hacking",
+      "oversight",
+      "model-organisms",
+      "control",
+      "rl"
+     ],
+     "tldr": "A systematic study of monitor-based interventions for detecting and mitigating reward hacking in RL, using realistic environments (coding, medical chat, biography generation) and identifying evasion risks and design principles for effective monitoring.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-10T20:00:02Z",
+     "rank": 20,
+     "resurfaced": false,
+     "title": "Against strawmanning unilateral pauses",
+     "authors": [
+      "Geoffrey Irving"
+     ],
+     "url": "https://www.lesswrong.com/posts/enzpS72uDmomiWN7a/against-strawmanning-unilateral-pauses",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "governance",
+      "theory"
+     ],
+     "tldr": "A response arguing that Scott Alexander's critique of unilateral AI capability pauses targets a weak version; conditional/limited pauses with redirected labor toward alignment and security are more viable than he acknowledges.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    }
+   ]
+  },
   {
    "digest_at": "2026-11-06T20:00:01Z",
    "entries": [
