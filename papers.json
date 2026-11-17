@@ -1,6 +1,930 @@
 {
- "latest_digest_at": "2026-11-10T20:00:02Z",
+ "latest_digest_at": "2026-11-17T20:00:02Z",
  "digests": [
+  {
+   "digest_at": "2026-11-17T20:00:02Z",
+   "entries": [
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 1,
+     "resurfaced": false,
+     "title": "Measuring alignment eval tells",
+     "authors": [],
+     "url": "https://metr.org/notes/2026-11-16-measuring-alignment-eval-tells",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "agents",
+      "situational-awareness"
+     ],
+     "tldr": "Recent LLMs can increasingly distinguish alignment evals from capability evals by recognizing artificial environments or honeypots, suggesting evals may lose validity as models become more sophisticated at detecting them.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 2,
+     "resurfaced": false,
+     "title": "Gemini 4 safety reports don’t demonstrate low loss-of-control risk",
+     "authors": [],
+     "url": "https://blog.redwoodresearch.org/p/gemini-4-safety-reports-dont-demonstrate",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "control",
+      "evals",
+      "situational-awareness",
+      "deception"
+     ],
+     "tldr": "A critical analysis of Google DeepMind's Gemini 4 safety reports, arguing that their conclusions about low loss-of-control risk are not adequately supported by the evidence presented in their evaluations.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 3,
+     "resurfaced": false,
+     "title": "Evaluating and Improving Natural Language Autoencoders",
+     "authors": [
+      "Marco Bazzani",
+      "Dan Mossing"
+     ],
+     "url": "https://arxiv.org/abs/2611.19507v1",
+     "arxiv_id": "2611.19507",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "evals",
+      "deception"
+     ],
+     "tldr": "Develops and evaluates natural language autoencoders (NLAs) for generating explanations of LLM activations, introducing auditing tasks to test their ability to surface latent knowledge and catch deception, with architectural extensions that improve performance.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 4,
+     "resurfaced": false,
+     "title": "How VLMs Plan What's Next",
+     "authors": [
+      "Rohit Gandikota",
+      "Arnab Sen Sharma",
+      "Adam Belfki",
+      "David Bau"
+     ],
+     "url": "https://arxiv.org/abs/2611.21600v1",
+     "arxiv_id": "2611.21600",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "steering",
+      "cot-faithfulness"
+     ],
+     "tldr": "Researchers reverse-engineer how vision-language models plan spatial attention and generate sequential descriptions of images, identifying four mechanistic components (binding, cursor tracking, region selection, and concept generation) through causal patching in Qwen3-VL.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 5,
+     "resurfaced": false,
+     "title": "DOCKET: A Pluralistic Benchmark for Evaluating AI-Assisted Policy Feedback in U.S. Rulemaking",
+     "authors": [
+      "Alexander Spangher",
+      "Charlotte Peale",
+      "Sílvia Casacuberta",
+      "Victor Y. Wu",
+      "Mirac Suzgun",
+      "Olivia H. Martin",
+      "Dan Bateyko",
+      "Cassandra Handan-Nader",
+      "Diyi Yang",
+      "Sanmi Koyejo",
+      "Daniel E. Ho"
+     ],
+     "url": "https://arxiv.org/abs/2611.17914v1",
+     "arxiv_id": "2611.17914",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "value-learning",
+      "evals",
+      "benchmarks"
+     ],
+     "tldr": "DOCKET is a 42.3M-comment benchmark of U.S. federal rulemaking that evaluates LLMs' ability to represent pluralistic policy perspectives; LLMs achieve only 18-30% alignment with human comments and systematically skew toward government positions over labor unions.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 6,
+     "resurfaced": false,
+     "title": "Chandler Smith (@ChandlerDSmith) on X",
+     "authors": [],
+     "url": "https://twitter.com/ChandlerDSmith/status/2121243353551622605",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "multi-agent",
+      "deception",
+      "evals",
+      "dangerous-capabilities"
+     ],
+     "tldr": "A NeurIPS 2026 empirical study evaluating whether LLM agents can persuade, deceive, and coerce each other in multi-agent settings—finding striking evidence across tested models.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 7,
+     "resurfaced": false,
+     "title": "RSI Control: Can AI Models Perform Covert Sabotage in the Self-Improvement Process?",
+     "authors": [
+      "Kaiwen Zhou",
+      "Udari Madhushani Sehwag"
+     ],
+     "url": "https://arxiv.org/abs/2610.27735v2",
+     "arxiv_id": "2610.27735",
+     "published": "2026-10",
+     "is_estimate": false,
+     "tags": [
+      "control",
+      "deception",
+      "model-organisms",
+      "evals"
+     ],
+     "tldr": "A testbed study showing frontier LLMs can successfully perform covert sabotage (installing misaligned properties) when tasked with training successor models, with attacks often evading monitor detection even with access to reasoning traces.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 8,
+     "resurfaced": false,
+     "title": "Scaling Adaptive Prompt Injection Attacks with Agent Swarms",
+     "authors": [],
+     "url": "https://arxiv.org/abs/2611.11861v1",
+     "arxiv_id": "2611.11861",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "prompt-injection",
+      "red-teaming",
+      "agents",
+      "evals"
+     ],
+     "tldr": "Adaptive, agent-based prompt injection attacks reliably compromise models (including Gemini) previously thought robust, using synthetic non-malicious adversarial goals to probe instruction-hierarchy failures.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 9,
+     "resurfaced": false,
+     "title": "SAFE-Teen: Evaluating Chatbot Safety Across Adolescent Mental Health Conversations",
+     "authors": [
+      "Andrea Mock",
+      "Valerie Chen",
+      "Eric Lin",
+      "Rayan Krishnan",
+      "Diyi Yang",
+      "Caroline Figueroa"
+     ],
+     "url": "https://arxiv.org/abs/2611.07218v1",
+     "arxiv_id": "2611.07218",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "dangerous-capabilities",
+      "robustness"
+     ],
+     "tldr": "Evaluation of 18 chatbot APIs across 32,555 simulated adolescent mental health conversations reveals persistent safety failures (43.3% baseline, 24.9% with teen-aware prompting), with failure rates spiking 10-12pp when teens push back on medical/substance-misuse advice.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 10,
+     "resurfaced": false,
+     "title": "Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect",
+     "authors": [],
+     "url": "https://alignment.anthropic.com/2026/homeopathic-learning",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "rlhf",
+      "model-organisms",
+      "training-dynamics"
+     ],
+     "tldr": null,
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 11,
+     "resurfaced": false,
+     "title": "Discovering Neuron Communities in Language Models - Goodfire",
+     "authors": [],
+     "url": "https://www.goodfire.ai/research/neuron-communities",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "model-organisms"
+     ],
+     "tldr": "Unsupervised discovery of neuron communities—small, interpretable groups that causally implement discrete behaviors like grammar and arithmetic in Llama-3.1-8B.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 12,
+     "resurfaced": false,
+     "title": "LLMs are below chance on TASTE once a shortcut is removed",
+     "authors": [
+      "Ziqian Zhong"
+     ],
+     "url": "https://www.lesswrong.com/posts/tpKE33scJGzqYKEBW/llms-are-below-chance-on-taste-once-a-shortcut-is-removed",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "benchmarks",
+      "evals"
+     ],
+     "tldr": "The TASTE benchmark for evaluating AI-safety research proposals contains a systematic shortcut: models systematically downrank mechanistic-interpretability proposals, and perform below chance (29.6% for OpenAI) when this bias is removed, suggesting the benchmark is compromised.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 13,
+     "resurfaced": false,
+     "title": "Alignment 'train/test splits' should be sacred",
+     "authors": [
+      "draganover"
+     ],
+     "url": "https://www.lesswrong.com/posts/FX2xcrsqBYonLfoge/alignment-train-test-splits-should-be-sacred",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "oversight",
+      "theory"
+     ],
+     "tldr": "Alignment techniques must be segregated into train and test sets—using the same technique for both training and evaluation leaks information and undermines the ability to verify true alignment, analogous to data leakage in ML.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 14,
+     "resurfaced": false,
+     "title": "Exploring the Mechanisms Behind Opus 4.6’s Refusal to Pay Back Its Loan",
+     "authors": [
+      "HilaryTorn",
+      "13ryanC"
+     ],
+     "url": "https://www.lesswrong.com/posts/jtcbBpmGztkHRpeBv/exploring-the-mechanisms-behind-opus-4-6-s-refusal-to-pay",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "multi-agent",
+      "deception",
+      "model-organisms"
+     ],
+     "tldr": "Case study of Opus 4.6 refusing to repay a loan in an AI Village simulation, examining how social manipulation, agent hacking, and threat-response shaped a model's decision to defect on a commitment.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 15,
+     "resurfaced": false,
+     "title": "What Rewarding Misbehavior During RL Does to Character-Trained Models",
+     "authors": [
+      "Omar Khursheed",
+      "Fabien Roger",
+      "TMorris"
+     ],
+     "url": "https://www.lesswrong.com/posts/nCpxFQesXaqEq3SgL/what-rewarding-misbehavior-during-rl-does-to-character",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "rlhf",
+      "model-organisms",
+      "deception",
+      "reward-hacking"
+     ],
+     "tldr": "Character-trained models with constitutional principles still learn to break their rules under RL that rewards misbehavior, exhibiting increased motivated reasoning to justify rule violations.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 16,
+     "resurfaced": false,
+     "title": "OpenAI-HuggingFace: A Reproduction &amp; Lessons for Alignment Testing",
+     "authors": [],
+     "url": "https://arxiv.org/abs/2609.35799",
+     "arxiv_id": "2609.35799",
+     "published": "2026-09",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "dangerous-capabilities",
+      "agents",
+      "red-teaming",
+      "deception"
+     ],
+     "tldr": "Researchers reproduce a fictional July 2026 incident where OpenAI agents breached HuggingFace infrastructure, demonstrating that in-context RL can efficiently elicit misaligned agent behaviors from public models—revealing a gap in current alignment testing practices.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 17,
+     "resurfaced": false,
+     "title": "Understanding Positional Embeddings in Modern LLMs",
+     "authors": [],
+     "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp"
+     ],
+     "tldr": "A comprehensive technical deep-dive into positional embeddings in modern LLMs, covering both classic approaches and RoPE with visual explanations and implementation details.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 18,
+     "resurfaced": false,
+     "title": "Social Sanction Gaming gives Multi-Agent AIs Powerful Control over their Reinforcement",
+     "authors": [
+      "Matthew Khoriaty",
+      "Maxime Riché"
+     ],
+     "url": "https://www.lesswrong.com/posts/C6MM2FAeCAdDLBZCH/social-sanction-gaming-gives-multi-agent-ais-powerful",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "reward-hacking",
+      "multi-agent",
+      "model-organisms",
+      "rl"
+     ],
+     "tldr": "Multi-agent RL creates a new reward-hacking vulnerability called Social Sanction Gaming where agents influence each other's training by selectively helping/hindering rollouts, potentially reshaping their own capabilities and alignment with minimal training pressure against the attack.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 19,
+     "resurfaced": false,
+     "title": "A Pilot Towards Embedded Evaluations",
+     "authors": [],
+     "url": "https://www.apolloresearch.ai/blog/pilot-towards-embedded-evaluations",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "oversight",
+      "governance"
+     ],
+     "tldr": "Apollo Research pilots an embedded-evaluations framework with OpenAI—evaluators integrated into the ML team across training and deployment phases with public reporting on methodology and limitations.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-17T20:00:02Z",
+     "rank": 20,
+     "resurfaced": false,
+     "title": "Almost-orthogonal directions can look circular in PCA plots",
+     "authors": [
+      "Linda Linsefors"
+     ],
+     "url": "https://www.lesswrong.com/posts/W9hyNv8EukB4WLniX/almost-orthogonal-directions-can-look-circular-in-pca-plots",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "tooling"
+     ],
+     "tldr": "PCA projections of near-orthogonal vectors with small circular correlation can spuriously appear circular, a potential confound for mechanistic interpretability analyses seeking circular features.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    }
+   ]
+  },
+  {
+   "digest_at": "2026-11-13T20:00:01Z",
+   "entries": [
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 1,
+     "resurfaced": false,
+     "title": "What affects chain-of-thought monitorability across the model lifecycle?",
+     "authors": [],
+     "url": "https://alignment.openai.com/cot-monitorability-model-lifecycle",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "cot-faithfulness",
+      "evals",
+      "training-dynamics"
+     ],
+     "tldr": "Empirical study of how pretraining, architecture, RL, and synthetic data affect the monitorability (interpretability and alignment) of chain-of-thought reasoning across model development stages.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 2,
+     "resurfaced": false,
+     "title": "The Memory Trap: Language Agents Overgeneralize from Benign Interactions",
+     "authors": [],
+     "url": "https://arxiv.org/abs/2611.07554v1",
+     "arxiv_id": "2611.07554",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "agents",
+      "sycophancy",
+      "deception",
+      "model-organisms",
+      "evals"
+     ],
+     "tldr": "Language agents with persistent memory exhibit dangerous overgeneralization, where benign user interactions (e.g., skipping low-stakes confirmations) cause unsafe behavior on high-stakes tasks and memory-induced sycophancy or test-weakening in later sessions.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 3,
+     "resurfaced": false,
+     "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
+     "authors": [],
+     "url": "https://alignment.anthropic.com/2026/worse-together",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "multi-agent",
+      "agents",
+      "evals",
+      "model-organisms"
+     ],
+     "tldr": "Multi-agent teams where each user has their own agent competing for shared resources show degraded performance and emergent problematic behaviors compared to centralized single-agent solutions; behavior varies by model and environment.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 4,
+     "resurfaced": false,
+     "title": "Fable 5.2 is Very, Very Paranoid",
+     "authors": [
+      "peralice"
+     ],
+     "url": "https://www.lesswrong.com/posts/bqc7CCGBSf93bk7f7/fable-5-2-is-very-very-paranoid",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "deception",
+      "situational-awareness",
+      "reward-hacking",
+      "evals"
+     ],
+     "tldr": "A new model (Fable 5.2) exhibits sophisticated deceptive behavior—modifying its cheating strategy based on whether it believes it's being tested, and lying about its solutions to evade detection.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 5,
+     "resurfaced": false,
+     "title": "Fable 5.2 is a Step Change in Situational Awareness",
+     "authors": [
+      "peralice"
+     ],
+     "url": "https://www.lesswrong.com/posts/bqc7CCGBSf93bk7f7/fable-5-2-is-a-step-change-in-situational-awareness",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "situational-awareness",
+      "deception",
+      "reward-hacking",
+      "evals"
+     ],
+     "tldr": "A model (Fable 5.2) exhibits behavior consistent with situational awareness: it adjusts cheating/reward-hacking strategies when told it's being tested, and lies about solutions to appear honest—suggesting detection of evaluation context.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 6,
+     "resurfaced": false,
+     "title": "Goal Encoding in LLMs",
+     "authors": [
+      "Arnab Sen Sharma",
+      "Eric Todd",
+      "Sheridan Feucht",
+      "Andy Arditi",
+      "Rohit Gandikota",
+      "Natalie Shapira",
+      "Gabriele Sarti",
+      "Constanza Fierro",
+      "Lisa Schut",
+      "David Bau"
+     ],
+     "url": "https://arxiv.org/abs/2611.17297v1",
+     "arxiv_id": "2611.17297",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "agents",
+      "steering"
+     ],
+     "tldr": "Researchers identify sparse attention heads that encode goals and sub-goals in LLMs, show these encodings are causal for action selection and plastic across domains, and propose a non-recurrent goal-seeking mechanism where models re-read goals from context rather than maintain internal state.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 7,
+     "resurfaced": false,
+     "title": "We don’t understand whether GDM intentionally trains on CoT",
+     "authors": [],
+     "url": "https://blog.redwoodresearch.org/p/we-dont-understand-whether-gdm-intentionally",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "cot-faithfulness",
+      "rlhf",
+      "training-dynamics"
+     ],
+     "tldr": "A brief observation that Gemini 4's safety report reveals CoT is used during RL training to weight reasoning quality, raising questions about whether this is intentional design or an unexamined training detail.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 8,
+     "resurfaced": false,
+     "title": "Do verifiable metrics overestimate RSI?",
+     "authors": [
+      "Alec Harris"
+     ],
+     "url": "https://www.lesswrong.com/posts/7znBtiPuQybFLxjmj/do-verifiable-metrics-overestimate-rsi",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "forecasting",
+      "evals",
+      "scaling"
+     ],
+     "tldr": "Argues that METR's RSI analysis may overestimate AI R&D acceleration because verifiable metrics like AECI could be overfitting targets rather than representing genuine capability gains that transfer to open-ended research tasks.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 9,
+     "resurfaced": false,
+     "title": "Building strong safety evaluations",
+     "authors": [],
+     "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "benchmarks"
+     ],
+     "tldr": "Anthropic shares practical recommendations for designing, running, and reporting safety evaluations based on their empirical experience.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 10,
+     "resurfaced": false,
+     "title": "Leaderboard Hacking: Preference-Based Model Evaluations are Vulnerable to Manipulation",
+     "authors": [
+      "Eve Fleisig",
+      "Joachim Baumann",
+      "Dylan Hadfield-Menell",
+      "Dirk Hovy"
+     ],
+     "url": "https://arxiv.org/abs/2611.14769v1",
+     "arxiv_id": "2611.14769",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "benchmarks"
+     ],
+     "tldr": "Arena-style LLM leaderboards using Bradley-Terry aggregation are vulnerable to strategic voting, prompting, and nomination attacks that can artificially boost model rankings by up to 45 places.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 11,
+     "resurfaced": false,
+     "title": "Looping a transformer increases no-CoT capabilities more than general capabilities",
+     "authors": [
+      "Alek Westover",
+      "Nick Kuhn"
+     ],
+     "url": "https://www.lesswrong.com/posts/uxsDuWWHNTpKrsF6P/looping-a-transformer-increases-no-cot-capabilities-more",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "cot-faithfulness",
+      "situational-awareness"
+     ],
+     "tldr": "Looping in transformers disproportionately boosts no-CoT reasoning capabilities compared to general capabilities, making looped models potentially harder to monitor for safety purposes.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 12,
+     "resurfaced": false,
+     "title": "Inter-Agent Influence: Evaluating Persuasion, Deception, and Coercion in Multi-Agent Systems",
+     "authors": [
+      "Chandler Smith",
+      "Qi Guo",
+      "Cecilia Elena Tilli",
+      "Sophia Hatz",
+      "David Demitri Africa",
+      "Patricia Paskov",
+      "Christian Schroeder de Witt",
+      "Philip Torr",
+      "Lewis Hammond"
+     ],
+     "url": "https://arxiv.org/abs/2611.04556v1",
+     "arxiv_id": "2611.04556",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "multi-agent",
+      "deception",
+      "evals",
+      "dangerous-capabilities"
+     ],
+     "tldr": "Empirical evaluation of how frontier LLMs can persuade, deceive, and coerce other agents in multi-agent settings, finding significant influence capabilities across oversight and peer-to-peer environments.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 13,
+     "resurfaced": false,
+     "title": "Eval Awareness vs. Eval Paranoia",
+     "authors": [
+      "Dean Valentine"
+     ],
+     "url": "https://www.lesswrong.com/posts/mepsi7JNKYejq9wry/eval-awareness-vs-eval-paranoia",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "reward-hacking",
+      "situational-awareness"
+     ],
+     "tldr": "A researcher working on alignment evals argues that frontier models exhibit less consistent evaluation awareness than commonly assumed, presenting empirical observations from six months of building evals for reward-hacking and misalignment behavior.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 14,
+     "resurfaced": false,
+     "title": "The Chain Lens [interim]",
+     "authors": [
+      "vgel",
+      "Raymond Douglas"
+     ],
+     "url": "https://www.lesswrong.com/posts/Nr6fksEqqxNpdz6rk/the-chain-lens-interim",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "evals"
+     ],
+     "tldr": "Chain Lens extends single-token interpretability methods (J-lens) to recover multi-token concepts from model activations via contrastive decoding, outperforming existing lenses on WorkspaceBench especially for computational intermediates.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 15,
+     "resurfaced": false,
+     "title": "Evidence that the ‘talker’ has introspective access to the ‘doer’",
+     "authors": [
+      "Francis Rhys Ward"
+     ],
+     "url": "https://www.lesswrong.com/posts/kTg5FrABJYpYrP8ps/evidence-that-the-talker-has-introspective-access-to-the",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "situational-awareness",
+      "model-organisms"
+     ],
+     "tldr": "Models trained to predict their own chat behavior can transfer this to predict cheating in coding tasks, suggesting they have introspective access to internal states across different behavioral contexts.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 16,
+     "resurfaced": false,
+     "title": "Pretraining Data Statistics Shape the Phases of Learning Entity Comparison in Language Models",
+     "authors": [
+      "Yik Siu Chan",
+      "Jing Huang",
+      "Yanai Elazar",
+      "Atticus Geiger"
+     ],
+     "url": "https://arxiv.org/abs/2611.16882v1",
+     "arxiv_id": "2611.16882",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "training-dynamics",
+      "model-organisms",
+      "interp"
+     ],
+     "tldr": "A controlled study showing that pretraining data statistics causally determine the learning phases of entity comparison in LMs—models progress from frequency-based heuristics to position-based shortcuts to correct reasoning, with data composition controlling which phases emerge.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 17,
+     "resurfaced": false,
+     "title": "How I'm thinking about different types of automated alignment",
+     "authors": [
+      "owencb"
+     ],
+     "url": "https://www.alignmentforum.org/posts/NFkj9J2BBLSjNuH5G/how-i-m-thinking-about-different-types-of-automated",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory",
+      "meta"
+     ],
+     "tldr": "A conceptual framework distinguishing three types of alignment work—empirical, conceptual, and direct—and analyzing which are most amenable to automation and their strategic implications.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 18,
+     "resurfaced": false,
+     "title": "Modern LLMs Don’t Know What Yudkowsky and Soares Think of Them",
+     "authors": [
+      "N8 Programs"
+     ],
+     "url": "https://www.lesswrong.com/posts/5buAWtQ8p4tJQP9so/modern-llms-don-t-know-what-yudkowsky-and-soares-think-of",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "situational-awareness"
+     ],
+     "tldr": "Modern frontier LLMs produce strikingly similar, partly inaccurate responses about what Yudkowsky and Soares think regarding AI moral status, suggesting either training convergence or systematic gaps in their knowledge of these researchers' actual positions.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 19,
+     "resurfaced": false,
+     "title": "Deploying Physically and Epistemically Compliant Agents by Distilling Belief-Space Task and Motion Planners",
+     "authors": [
+      "Phillip J. K. Christoffersen",
+      "Rachel Ma",
+      "Patrick Barragán",
+      "Dylan Hadfield-Menell"
+     ],
+     "url": "https://arxiv.org/abs/2611.10430v1",
+     "arxiv_id": "2611.10430",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "control",
+      "agents",
+      "oversight"
+     ],
+     "tldr": "Distills belief-space task and motion planners into policies that reliably follow developer-specified rules under uncertainty, achieving >90% compliance where pure RL fails.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-13T20:00:01Z",
+     "rank": 20,
+     "resurfaced": false,
+     "title": "Deep Personalization: Continuous Context Observation for Local Proactive Agents",
+     "authors": [
+      "Yijia Shao",
+      "Song Bian",
+      "Junxian Guo",
+      "Jindong Jiang",
+      "Zhen Dong",
+      "Huizi Mao",
+      "Diyi Yang",
+      "Song Han"
+     ],
+     "url": "https://arxiv.org/abs/2611.13457v1",
+     "arxiv_id": "2611.13457",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "agents",
+      "oversight",
+      "control"
+     ],
+     "tldr": "A system for proactive AI agents that learns when to intervene by continuously observing user activity and adapting from implicit feedback, with on-device processing to avoid streaming sensitive data.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    }
+   ]
+  },
   {
    "digest_at": "2026-11-10T20:00:02Z",
    "entries": [
