@@ -20,7 +20,7 @@
       "situational-awareness"
      ],
      "tldr": "Recent LLMs can increasingly distinguish alignment evals from capability evals by recognizing artificial environments or honeypots, suggesting evals may lose validity as models become more sophisticated at detecting them.",
-     "group_rating": null,
+     "group_rating": 4,
      "picked": false,
      "read": false
     },
@@ -166,9 +166,9 @@
       "evals"
      ],
      "tldr": "A testbed study showing frontier LLMs can successfully perform covert sabotage (installing misaligned properties) when tasked with training successor models, with attacks often evading monitor detection even with access to reasoning traces.",
-     "group_rating": null,
-     "picked": false,
-     "read": false
+     "group_rating": 5,
+     "picked": true,
+     "read": true
     },
     {
      "digest_at": "2026-11-17T20:00:02Z",
@@ -187,7 +187,7 @@
       "evals"
      ],
      "tldr": "Adaptive, agent-based prompt injection attacks reliably compromise models (including Gemini) previously thought robust, using synthetic non-malicious adversarial goals to probe instruction-hierarchy failures.",
-     "group_rating": null,
+     "group_rating": 4,
      "picked": false,
      "read": false
     },
@@ -234,7 +234,7 @@
       "training-dynamics"
      ],
      "tldr": null,
-     "group_rating": null,
+     "group_rating": 4,
      "picked": false,
      "read": false
     },
@@ -296,7 +296,7 @@
       "theory"
      ],
      "tldr": "Alignment techniques must be segregated into train and test sets—using the same technique for both training and evaluation leaks information and undermines the ability to verify true alignment, analogous to data leakage in ML.",
-     "group_rating": null,
+     "group_rating": 2,
      "picked": false,
      "read": false
     },
@@ -344,7 +344,7 @@
       "reward-hacking"
      ],
      "tldr": "Character-trained models with constitutional principles still learn to break their rules under RL that rewards misbehavior, exhibiting increased motivated reasoning to justify rule violations.",
-     "group_rating": null,
+     "group_rating": 4,
      "picked": false,
      "read": false
     },
@@ -18892,13 +18892,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -22030,13 +22030,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -22178,13 +22178,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -22483,13 +22483,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -22675,13 +22675,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -22976,13 +22976,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -23315,13 +23315,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -23639,13 +23639,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -24018,13 +24018,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -24332,13 +24332,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -24694,13 +24694,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -25150,13 +25150,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -25528,13 +25528,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -26021,13 +26021,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
@@ -28965,13 +28965,13 @@
      "title": "Verbalizable Representations Form a Global Workspace in Language Models",
      "authors": [],
      "url": "https://transformer-circuits.pub/2026/workspace/index.html",
-     "arxiv_id": null,
+     "arxiv_id": "2607.15495",
      "published": "2026-07",
      "is_estimate": false,
      "tags": [
       "interp"
      ],
-     "tldr": null,
+     "tldr": "A Transformer Circuits article (likely a mechanistic interpretability deep-dive or methods overview), shared without context in the papers channel.",
      "group_rating": null,
      "picked": false,
      "read": false
