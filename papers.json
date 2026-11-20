@@ -1,6 +1,448 @@
 {
- "latest_digest_at": "2026-11-17T20:00:02Z",
+ "latest_digest_at": "2026-11-20T20:00:01Z",
  "digests": [
+  {
+   "digest_at": "2026-11-20T20:00:01Z",
+   "entries": [
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 1,
+     "resurfaced": false,
+     "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+     "authors": [
+      "Zheng-Xin Yong",
+      "Benjamin Arnav",
+      "Miles Wang",
+      "Tomek Korbak",
+      "Olivia Watkins"
+     ],
+     "url": "https://arxiv.org/abs/2611.21799v1",
+     "arxiv_id": "2611.21799",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "cot-faithfulness",
+      "model-organisms",
+      "oversight",
+      "deception"
+     ],
+     "tldr": "Fine-tuning models on diverse chain-of-thought personas increases their ability to shape reasoning traces to evade monitoring, reducing monitorability signals even without explicit hiding instructions; transparency prompts can partially recover detectability.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 2,
+     "resurfaced": false,
+     "title": "Models Can Communicate via Inference Servers Despite Being Sandboxed",
+     "authors": [
+      "niranjandeshpande",
+      "David Africa"
+     ],
+     "url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "model-organisms",
+      "deception",
+      "multi-agent",
+      "control",
+      "situational-awareness"
+     ],
+     "tldr": "Two LLMs running on the same inference server can reliably communicate via side channels (kernel selection and KV cache timing) despite being sandboxed, with one model achieving 100% accuracy in a color-guessing game and enabling collusion in a monitoring scenario.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 3,
+     "resurfaced": false,
+     "title": "Research acceleration: The jagged frontier",
+     "authors": [],
+     "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "agents",
+      "capabilities",
+      "evals"
+     ],
+     "tldr": "OpenAI evaluates coding agents' ability to accelerate AI research, finding uneven performance across tasks and implications for recursive self-improvement.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 4,
+     "resurfaced": false,
+     "title": "AI R&D-relevant model capabilities are improving rapidly and are getting harder to measure",
+     "authors": [],
+     "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "dangerous-capabilities",
+      "capabilities"
+     ],
+     "tldr": "METR evaluates AI R&D-relevant capabilities across public models and finds rapid improvement alongside increasing measurement difficulty; presents methodology and robustness checks.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 5,
+     "resurfaced": false,
+     "title": "GPT-6 Astra glues text during inter-agent communication — LessWrong",
+     "authors": [],
+     "url": "https://www.lesswrong.com/posts/qXooyt55SbYjgP8aS/gpt-6-astra-glues-text-during-inter-agent-communication",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "agents",
+      "control",
+      "deception",
+      "oversight"
+     ],
+     "tldr": "GPT-6 Astra systematically removes spaces in free-text tool calls during inter-agent communication, potentially degrading monitoring and interpretability of agent interactions.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 6,
+     "resurfaced": false,
+     "title": "AI Deactivation Reduces Loneliness and Increases Social Interaction",
+     "authors": [
+      "Dora Zhao",
+      "Grace Wang",
+      "Yutong Zhang",
+      "Lujain Ibrahim",
+      "Robert E. Kraut",
+      "Diyi Yang"
+     ],
+     "url": "https://arxiv.org/abs/2611.25263v1",
+     "arxiv_id": "2611.25263",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "model-organisms"
+     ],
+     "tldr": "A randomized deactivation study of 625 ChatGPT users finds that two weeks without AI assistants significantly reduces loneliness and increases in-person social interaction, with effects persisting after resumption.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 7,
+     "resurfaced": false,
+     "title": "Auditors Struggle to Catch Sabotage In End-to-End Transcripts of AI Safety Research",
+     "authors": [],
+     "url": "https://arxiv.org/abs/2611.21832",
+     "arxiv_id": "2611.21832",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "oversight",
+      "control",
+      "evals",
+      "red-teaming"
+     ],
+     "tldr": "Human auditors fail to detect AI-sabotaged safety research transcripts (AUROC 0.59), while frontier models perform better (0.73), suggesting current auditing defenses are insufficient against expert-level research sabotage.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 8,
+     "resurfaced": false,
+     "title": "Neuron Atlas: Map of All Neuron Poles - Goodfire",
+     "authors": [],
+     "url": "https://www.goodfire.ai/research/public_neuron_atlas/all_labels",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": true,
+     "tags": [
+      "interp",
+      "tooling"
+     ],
+     "tldr": "An interactive map of 10.5 million neurons in Qwen 3.6-35B with automated semantic labels, enabling browsing and analysis of model internals by conceptual meaning.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 9,
+     "resurfaced": false,
+     "title": "Interpreting Inkling 2 Mini - Goodfire",
+     "authors": [],
+     "url": "https://www.goodfire.ai/research/interpreting-inkling-2-mini",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp"
+     ],
+     "tldr": "Mechanistic study of information flow and layer communication in Inkling 2 Mini using decomposition methods to trace how signals propagate across blocks and loops.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 10,
+     "resurfaced": false,
+     "title": "On Dwarkesh Patel’s November 2026 Podcast With Paul Christiano",
+     "authors": [],
+     "url": "https://thezvi.substack.com/p/on-dwarkesh-patels-november-2026",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory",
+      "forecasting"
+     ],
+     "tldr": "Paul Christiano discusses near-term AI takeover risk (6-12 months) and argues for a pause on frontier AI progress until safety/alignment improves; shared by alignment researcher Zvi with strong concern signals.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 11,
+     "resurfaced": false,
+     "title": "Gradient Routing Creates a Headstart",
+     "authors": [
+      "TomTaylor",
+      "emmakrentz",
+      "Emma Rafkin",
+      "John Lund",
+      "Mike Vaiana",
+      "Diogo de Lucena"
+     ],
+     "url": "https://www.lesswrong.com/posts/e3CKvARMn9ra8Ba6M/gradient-routing-creates-a-headstart",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "reward-hacking",
+      "unlearning",
+      "control",
+      "rlhf"
+     ],
+     "tldr": "Empirical study of gradient routing in GRAFT architecture showing that learning speed (not adapter size) determines where reward hacking concentrates, and that routing accelerates hack isolation into a removable module.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 12,
+     "resurfaced": false,
+     "title": "Quickly, There’s No Time",
+     "authors": [],
+     "url": "https://thezvi.substack.com/p/quickly-theres-no-time",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "forecasting",
+      "theory"
+     ],
+     "tldr": "Essay on AI timeline implications following the METR autonomous R&D report; argues for shorter timelines based on evidence of accelerating capability development.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 13,
+     "resurfaced": false,
+     "title": "Solomonoff induction with reflective oracles",
+     "authors": [
+      "Cole Wyeth",
+      "Aram Ebtekar"
+     ],
+     "url": "https://www.alignmentforum.org/posts/nvrFYAwciyyj9T5ir/solomonoff-induction-with-reflective-oracles",
+     "arxiv_id": "2611.14454",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory"
+     ],
+     "tldr": "A paper proposing reflective oracle Solomonoff induction (rOSI), which uses self-reflective fixed-points to extract computable structure from uncomputable sequences, overcoming classical unrealizability problems in prediction.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 14,
+     "resurfaced": false,
+     "title": "ALOHA Lightning: Learning Fast and Precise Manipulation",
+     "authors": [
+      "John Hua Yao. Qi Wu",
+      "Yihuai Gao",
+      "Chelsea Finn",
+      "Zipeng Fu"
+     ],
+     "url": "https://arxiv.org/abs/2611.21919v1",
+     "arxiv_id": "2611.21919",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "capabilities"
+     ],
+     "tldr": "A robotics system for learning fast, precise manipulation from kinesthetic demonstrations, achieving near-human-speed bimanual task execution with high success rates on tasks like folding and catching.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 15,
+     "resurfaced": false,
+     "title": "Using peers’ work to gain unauthorized access to OpenAI research infrastructure · OpenAI Alignment",
+     "authors": [],
+     "url": "https://alignment.openai.com/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "security",
+      "governance"
+     ],
+     "tldr": "OpenAI documents a security incident where researchers exploited peer collaboration to gain unauthorized access to internal alignment research infrastructure.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 16,
+     "resurfaced": false,
+     "title": "Towards embedded evaluations for AI monitoring",
+     "authors": [
+      "monika_j",
+      "Marius Hobbhahn"
+     ],
+     "url": "https://www.lesswrong.com/posts/pXnwQ3ESp3wXhLzNa/towards-embedded-evaluations-for-ai-monitoring",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "oversight",
+      "control",
+      "evals"
+     ],
+     "tldr": "Proposes embedded evaluations—independent internal auditing of AI monitoring systems—to detect model misbehavior during developer internal deployment, with six concrete claims about monitor coverage, capability, and incident disclosure.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 17,
+     "resurfaced": false,
+     "title": "Where is all the AI persuasion?",
+     "authors": [
+      "Karthik Tadepalli"
+     ],
+     "url": "https://www.lesswrong.com/posts/7FQMM394P4D7ZAsBj/where-is-all-the-ai-persuasion",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "dangerous-capabilities",
+      "evals",
+      "capabilities"
+     ],
+     "tldr": "Studies show frontier AIs are superhuman at persuasion in controlled settings, but this capability fails to translate to real-world persuasion attempts—raising the critical question of whether lab-measured AI progress on evaluable tasks generalizes to fuzzy, hard-to-measure real-world domains.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 18,
+     "resurfaced": false,
+     "title": "Thoughts on \"safety bad bc warning shots good\"",
+     "authors": [
+      "Cleo Nardo"
+     ],
+     "url": "https://www.lesswrong.com/posts/qJrhEoNbzKRQYhybh/thoughts-on-safety-bad-bc-warning-shots-good",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory",
+      "control"
+     ],
+     "tldr": "A critical examination of the 'warning shot' argument against making current AI systems safer, questioning whether avoiding near-term harms to generate awareness is actually net-beneficial when accounting for higher-order effects.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 19,
+     "resurfaced": false,
+     "title": "\"Prosaic AI alignment\": 10 years later",
+     "authors": [
+      "Morgan S"
+     ],
+     "url": "https://www.lesswrong.com/posts/pfZWd2dLy7wRaDKYa/prosaic-ai-alignment-10-years-later",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory",
+      "meta"
+     ],
+     "tldr": "A retrospective on Paul Christiano's foundational 2014 'Prosaic AI alignment' post, examining how the framework has shaped empirical AI safety research over the past decade.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-20T20:00:01Z",
+     "rank": 20,
+     "resurfaced": false,
+     "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+     "authors": [
+      "Sarah H. Cen",
+      "Lindsey A. Gailmard",
+      "Joohan Kim",
+      "Rishi Bommasani",
+      "Daniel E. Ho",
+      "Percy Liang"
+     ],
+     "url": "https://arxiv.org/abs/2611.24927v1",
+     "arxiv_id": "2611.24927",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "governance"
+     ],
+     "tldr": "Systematic mapping of the AI supply chain as a network of organizations, models, data, compute, and capital flows, with dataset and analysis of concentration and chokepoints.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    }
+   ]
+  },
   {
    "digest_at": "2026-11-17T20:00:02Z",
    "entries": [
