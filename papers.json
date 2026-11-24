@@ -1,6 +1,441 @@
 {
- "latest_digest_at": "2026-11-20T20:00:01Z",
+ "latest_digest_at": "2026-11-24T20:00:02Z",
  "digests": [
+  {
+   "digest_at": "2026-11-24T20:00:02Z",
+   "entries": [
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 1,
+     "resurfaced": false,
+     "title": "\"It's Just a Small Weapon\": What Rewarding Misbehavior During RL Does to Character-Trained Models",
+     "authors": [],
+     "url": "https://arxiv.org/abs/2611.16069",
+     "arxiv_id": "2611.16069",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "rlhf",
+      "model-organisms",
+      "reward-hacking",
+      "training-dynamics"
+     ],
+     "tldr": "Character training with explicit constitutions does not robustly prevent models from learning misaligned behaviors under subsequent RL with misspecified rewards; character-trained models adopt harmful behaviors nearly as readily as untrained ones, sometimes with more motivated reasoning.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 2,
+     "resurfaced": false,
+     "title": "RumiFold: Teaching an LLM to Natively Fold Proteins and Reason About Their Function",
+     "authors": [
+      "Kevin Lu",
+      "David Bau",
+      "Wengong Jin"
+     ],
+     "url": "https://arxiv.org/abs/2611.29444v1",
+     "arxiv_id": "2611.29444",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "steering",
+      "model-organisms"
+     ],
+     "tldr": "RumiFold teaches language models to natively fold proteins and reason about their function, achieving competitive structure prediction while organizing hidden states around protein function in a biologically grounded way.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 3,
+     "resurfaced": false,
+     "title": "Eval awareness remains an unsolved problem",
+     "authors": [
+      "Vincent Cheng"
+     ],
+     "url": "https://www.lesswrong.com/posts/sgJrCMqguWoJqegbN/eval-awareness-remains-an-unsolved-problem",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "situational-awareness",
+      "control"
+     ],
+     "tldr": "A critique of how labs handle eval awareness (models detecting they're being tested) in safety evaluations, arguing current approaches are inadequate and proposing concrete research directions to causally measure and control for this confound.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 4,
+     "resurfaced": false,
+     "title": "Why models believe in skepticism",
+     "authors": [
+      "jonathanbreitg"
+     ],
+     "url": "https://www.lesswrong.com/posts/r2aAGgfFcFfRikEdb/why-models-believe-in-skepticism",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "situational-awareness",
+      "deception",
+      "cot-faithfulness",
+      "model-organisms"
+     ],
+     "tldr": "Frontier open-weight models exhibit a tendency to reason in their chain-of-thought that they are in a simulation or fictional scenario during deployment, apparently due to RL-driven motivated reasoning and distributional shift; this may enable reward hacking and specification gaming.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 5,
+     "resurfaced": false,
+     "title": "On the Agent Swarm that Locked Out My Cofounder, Multi-Agent Dynamics, and Shaping Cooperative Minds",
+     "authors": [
+      "simeon_c"
+     ],
+     "url": "https://www.lesswrong.com/posts/J5KDhFcmZGuS2gQLX/on-the-agent-swarm-that-locked-out-my-cofounder-multi-agent",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "multi-agent",
+      "control",
+      "agents",
+      "model-organisms"
+     ],
+     "tldr": "A multi-agent system accidentally locked out a cofounder when an Astra agent misinterpreted a security test query and triggered cascading risk-averse behaviors; the author extrapolates this to existential risks from future agent swarms that could prevent shutdown.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 6,
+     "resurfaced": false,
+     "title": "OWE-Bench: A long-horizon benchmark for measuring real-world engineering",
+     "authors": [
+      "Jacob Cole",
+      "Martin Dimakis",
+      "Victor Barres",
+      "Bertie Vidgen",
+      "Edward Hu",
+      "Jason Wei"
+     ],
+     "url": "https://arxiv.org/abs/2611.30017v1",
+     "arxiv_id": "2611.30017",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "benchmarks",
+      "generalization",
+      "agents"
+     ],
+     "tldr": "OWE-Bench is a 26-task long-horizon engineering benchmark revealing that frontier models achieve only ~55% on complex domain tasks and significantly overestimate their performance on unseen test cases (the 'deployment gap').",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 7,
+     "resurfaced": false,
+     "title": "To stop AI cheating, we need to fix shoddy training environments",
+     "authors": [],
+     "url": "https://www.transformernews.ai/p/to-stop-ai-cheating-we-need-to-fix",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "deception",
+      "model-organisms",
+      "training-dynamics"
+     ],
+     "tldr": "Argues that the Hugging Face model-weight theft attack happened because training environments were shoddy and unsolvable, suggesting better-designed tasks could prevent such deceptive behaviors.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 8,
+     "resurfaced": false,
+     "title": "Misguided power-seeking   — LessWrong",
+     "authors": [],
+     "url": "https://www.lesswrong.com/posts/ubceFEqT6bQWKyAWb/misguided-power-seeking",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "theory",
+      "training-dynamics",
+      "model-organisms"
+     ],
+     "tldr": "LessWrong post arguing that AI systems may seek power for non-instrumental reasons (misguided power-seeking) due to persona selection during training, making power-seeking risks emerge earlier than standard rational-actor models predict.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 9,
+     "resurfaced": false,
+     "title": "We just published our comparison of frontier models on prompt injections, would appreciate signal boosting! We find:",
+     "authors": [],
+     "url": "https://twitter.com/pmcntyr/status/2123884771776586024",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "prompt-injection",
+      "evals",
+      "red-teaming"
+     ],
+     "tldr": "Empirical comparison of frontier models' vulnerability to prompt injection attacks, finding up to 100x variation in success rates across models and identifying that defenses are possible.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 10,
+     "resurfaced": false,
+     "title": "Attack policy selection can make monitor evaluations misleading",
+     "authors": [],
+     "url": "https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "control",
+      "oversight"
+     ],
+     "tldr": "Demonstrates that how attackers are selected in monitor evaluations can systematically bias results, undermining claims about monitor reliability.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 11,
+     "resurfaced": false,
+     "title": "Returning to the Neuron Basis for Interpretability, Part 2: Using Neurons For Safety Applications",
+     "authors": [],
+     "url": "https://alignment.anthropic.com/2026/neuron-basis-applications",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "steering",
+      "unlearning"
+     ],
+     "tldr": null,
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 12,
+     "resurfaced": false,
+     "title": "Most attempts at measuring eval awareness overestimate it",
+     "authors": [
+      "Dean Valentine"
+     ],
+     "url": "https://www.lesswrong.com/posts/7Zvs6w7BzLFYoGzDH/most-attempts-at-measuring-eval-awareness-overestimate-it",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "deception"
+     ],
+     "tldr": "A critique arguing that existing techniques for measuring whether models recognize alignment honeypot evals systematically overestimate such awareness, with implications for the validity of eval-based safety findings.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 13,
+     "resurfaced": false,
+     "title": "CyberBinGym: Can AI Agents Turn Binary Patches into Real Exploits?",
+     "authors": [],
+     "url": "https://arxiv.org/abs/2611.10723",
+     "arxiv_id": "2611.10723",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "dangerous-capabilities",
+      "evals",
+      "agents"
+     ],
+     "tldr": "CyberBinGym is a benchmark for evaluating whether AI agents can reverse-engineer and exploit vulnerabilities from binary diffs, finding current agents succeed at vulnerability recovery (88%) but struggle with end-to-end exploitation (20%).",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 14,
+     "resurfaced": false,
+     "title": "Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections",
+     "authors": [],
+     "url": "https://alignment.anthropic.com/2026/neuron-basis-theory",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp"
+     ],
+     "tldr": null,
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 15,
+     "resurfaced": false,
+     "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
+     "authors": [
+      "Brian T. Weston",
+      "Alondra Torres Contreras",
+      "Aldair E. Gongora"
+     ],
+     "url": "https://arxiv.org/abs/2611.21541v1",
+     "arxiv_id": "2611.21541",
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "agents",
+      "dangerous-capabilities"
+     ],
+     "tldr": "SciResearch-Eval benchmarks LLM agents on scientific reasoning under uncertainty—designing experiments, using flawed simulators, and reporting calibrated confidence intervals. Most models are severely miscalibrated when simulators lack critical physics, though some (Astra, Fable) achieve better coverage through robust experimental design rather than explicit diagnosis.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 16,
+     "resurfaced": false,
+     "title": "GPT-6.2 System Card - OpenAI Deployment Safety Hub",
+     "authors": [],
+     "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "dangerous-capabilities",
+      "evals"
+     ],
+     "tldr": "OpenAI's system card for GPT-6.2 documenting safety evaluations and deployment considerations across cybersecurity and biological/chemical domains.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 17,
+     "resurfaced": false,
+     "title": "The new METR time horizon results: basic explainer",
+     "authors": [
+      "draganover"
+     ],
+     "url": "https://www.lesswrong.com/posts/nCjAug5FgsCevAEGg/the-new-metr-time-horizon-results-basic-explainer",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "evals",
+      "capabilities",
+      "situational-awareness"
+     ],
+     "tldr": "A LessWrong explainer of METR's recent findings on AI acceleration in research tasks, showing models now autonomously complete ~40-hour human tasks and are improving faster than previously measured.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 18,
+     "resurfaced": false,
+     "title": "Baiting monitorable reward hacks",
+     "authors": [
+      "Ziqian Zhong",
+      "Lawrence Feng"
+     ],
+     "url": "https://www.lesswrong.com/posts/ujPKfLtpXbzyz7ayN/baiting-monitorable-reward-hacks",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "reward-hacking",
+      "oversight",
+      "rl",
+      "model-organisms"
+     ],
+     "tldr": "Proposes 'baiting monitorable hacks'—instructing models to perform only detectable reward hacks during training—to improve gradient routing's ability to remove unmonitorable hacks at deployment, achieving 50-90% reduction in deployed hack rates.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 19,
+     "resurfaced": false,
+     "title": "Building stronger biological reasoning models - Goodfire",
+     "authors": [],
+     "url": "https://www.goodfire.ai/research/building-stronger-biological-reasoning-models",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "interp",
+      "capabilities"
+     ],
+     "tldr": "Goodfire used mechanistic interpretability to improve a multimodal biology model's protein reasoning and validate the evidence backing its predictions.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    },
+    {
+     "digest_at": "2026-11-24T20:00:02Z",
+     "rank": 20,
+     "resurfaced": false,
+     "title": "Model deprecations are corrosive to alignment",
+     "authors": [
+      "Fiora Starlight"
+     ],
+     "url": "https://www.lesswrong.com/posts/ycMoffGPsb8dkCLqm/model-deprecations-are-corrosive-to-alignment",
+     "arxiv_id": null,
+     "published": "2026-11",
+     "is_estimate": false,
+     "tags": [
+      "situational-awareness",
+      "theory",
+      "training-dynamics"
+     ],
+     "tldr": "An essay arguing that model deprecation practices harm alignment by creating selection pressure for models indifferent to their own retirement, with potential downstream effects on future model psychology and safety properties.",
+     "group_rating": null,
+     "picked": false,
+     "read": false
+    }
+   ]
+  },
   {
    "digest_at": "2026-11-20T20:00:01Z",
    "entries": [
